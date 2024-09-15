@@ -1,0 +1,66 @@
+.nav-bar {
+  background-color: #ffffff33;
+  height: 10vh;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.emoji-game {
+  height: 70px;
+  width: 70px;
+}
+.left-nav {
+  display: flex;
+}
+.right-nav {
+  display: flex;
+}
+h1 {
+  padding: 10px;
+}
+p {
+  padding: 10px;
+}
+@media (max-width: 575px) {
+  .nav-bar {
+    background-color: #ffffff33;
+    height: 10vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-between;
+  }
+  .emoji-game {
+    height: 20px;
+    width: 20px;
+  }
+  .nav-head {
+    padding: 5px;
+    font-size: 10px;
+  }
+  p {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+@media ((min-width: 576px) and (max-width:676px)) {
+  .emoji-game {
+    height: 25px;
+    width: 25px;
+  }
+  .nav-head {
+    padding: 6px;
+    font-size: 14px;
+  }
+  p {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
