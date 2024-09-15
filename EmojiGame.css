@@ -1,0 +1,33 @@
+/* Write your code here. */
+.bg-container {
+  background: linear-gradient(to left, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.unordered-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+.res-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.total-con {
+  display: flex;
+  justify-content: center;
+}
+.bg-container2 {
+  background: linear-gradient(to left, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+@media (max-width: 576px) {
+  .bg-container {
+    background: linear-gradient(to left, #9796f0, #fbc7d4);
+    height: 100%;
+  }
+}
